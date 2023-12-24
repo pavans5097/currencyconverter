@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cornflowerblue;
+}
+.container{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    border: 3px solid rebeccapurple;
+    box-shadow:15px 15px 17px 7px rgb(28, 27, 27);
+    min-height: 45vh;
+    width: 40vw;
+}
+form{
+    margin: 2rem 0 1rem 0 ;
+}
+.amount input {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgb(62, 62, 69);
+    padding: 3px;
+    width: 100%;
+    height: 30px;
+}
+.dropdown {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg {
+    text-align: center;
+    margin-top: 28px;
+    font-size: larger;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+button {
+    margin-top: 15px;
+    position: relative;
+    background-color: rgb(84, 139, 241);
+    padding: 10px;
+    font-size: small;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(51, 120, 250);
+    color: black;
+    cursor: pointer;
+}
+.buttondiv {
+    margin: auto;
+    width: 150px;
+    text-align: center;
+}
+.from p {
+    font-size: larger;
+}
+.to p {
+    font-size: larger;
+}
+.amount p {
+    font-size: large;
+}
+.select-container {
+    display: flex;
+   border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+select {
+    margin: 2px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: medium;
+}
+select *{
+    background-color:rgb(245, 244, 243);
+    font-size: medium;
+}
